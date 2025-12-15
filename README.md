@@ -75,8 +75,9 @@ To generalize well across diverse food images, we apply a rigorous augmentation 
 
 ### 1. Training the Model
 Run the Jupyter Notebook `AIFood101Explainer.ipynb`. The training loop includes:
-* Automatic download of dataset.
-* Data splitting (Train/Validation).
+* Automatic download of dataset (when you change the download=True in this line
+* (full_train_aug = datasets.Food101(root=DATA_ROOT, split='train', transform=train_transform, download=False)).
+* Data splitting (Train/Validation/Testing).
 * Training with **Early Stopping** to prevent overfitting.
 * Saving the best model to `AI_food_best_model.pth`.
 
