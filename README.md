@@ -16,7 +16,7 @@ Built on **EfficientNet-B3**, this project goes beyond simple classification by 
 
 ## 🌟 Key Features
 
-* **⚡ EfficientNet-B3 Backbone:** Utilizes transfer learning on ImageNet weights for high efficiency and accuracy.
+* **⚡ EfficientNet-B3 Backbone:** Utilizes transfer learning on ImageNet weights with Full Fine Tuning for high efficiency and accuracy.
 * **🧠 Explainable AI (Grad-CAM):** Generates heatmaps to visualize exactly *where* the model is looking when making a prediction.
 * **📊 Advanced Metrics:** Automatically calculates Top-1/Top-5 Accuracy, Macro F1-Score, and AUROC.
 * **📉 Reliability Analysis:** Includes Calibration Curves (Reliability Diagrams) to ensure model confidence matches reality.
